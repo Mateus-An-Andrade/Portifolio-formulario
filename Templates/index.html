@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para contato</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>Seção de contato</h1>
+    </header>
+
+    <div class="conteiner_principal">
+        <section class="formulario">
+            <h2 class="formulario_title">Alguma dúvida, sugestão ou requisição de projetos!? 
+                <br>
+                por favor nos envie e retornaremos o mais rápido possível:
+            </h2>
+
+            <div class="campos">
+                <form action="/submit" method="POST"> <!-- Formulário aberto aqui -->
+                    <p>nome:</p>
+                    <input type="text" name="nome" placeholder="digite aqui o seu nome" class="nome" required>
+
+                    <p>telefone:</p>
+                    <input type="tel" name="telefone" placeholder="ex.: (12)3456-7890" class="tel" maxlength="12">
+
+
+                    <p>e-mail:</p>
+                    <input type="email" name="email" placeholder="contatoformulario@email.com" class="email" required>
+
+                    <p>mensagem:</p>
+                    <textarea name="mensagem" placeholder="Digite aqui a sua mensagem" class="mensagem" required></textarea>
+
+                    <input type="submit" class="enviar_formulario" value="Enviar"> <!-- Submit dentro do form -->
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(201, 199, 199);
+    margin-left: 10px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.77);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color: aliceblue;
+    border-color: black;
+    align-items: center;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    margin: 10px;
+  }
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 55%;
+    height: 85vh;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    
+}
+
+.formulario_title{
+    color: rgb(54, 53, 53);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nome{
+    border-radius: 10px;
+    width: 25vh;
+    border-color: black;
+    font-style: italic;
+}
+
+.tel{
+    border-radius: 10px;
+    width: 25vh;
+    border-color: black;
+    font-style: italic;
+}
+
+.email{
+    border-radius: 10px;
+    width: 25vh;
+    border-color: black;
+    font-style: italic;
+}
+
+.mensagem{
+    border-radius: 10px;
+    width: 30vh;
+    height: 15vh;
+    border-color: black;
+    font-style: italic;
+    display:flex;
+}
+
+.enviar_formulario{
+    border-radius: 10px;
+    width: 15vh;
+    height: 05vh;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-color: black;
+    background-color:#007bff61;;
+    display: block;
+    margin-top: 10px;
+    flex-direction: column;
+}
